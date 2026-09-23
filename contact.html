@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل معنا - إكسسوار آدم</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-card {
+      width: 85%;
+      max-width: 650px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .contact-card h1 {
+      color: #00bcd4;
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+    .contact-card p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+    .contact-btns {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .c-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    .whatsapp { background-color: #25D366; }
+    .whatsapp:hover { background-color: #1da851; transform: translateY(-3px); }
+    
+    .phone { background-color: #00bcd4; }
+    .phone:hover { background-color: #0097a7; transform: translateY(-3px); }
+
+    .facebook { background-color: #1877F2; }
+    .facebook:hover { background-color: #115cbe; transform: translateY(-3px); }
+  </style>
+</head>
+<body>
+
+  <!-- القائمة العلوية -->
+  <nav class="navbar">
+    <div class="logo">اكسسوار ادم</div>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="index.html#products">المنتجات</a></li>
+      <li><a href="about.html">عن المتجر</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <!-- محتوى تواصل معنا -->
+  <div class="contact-card">
+    <h1>تواصل معنا مباشرة</h1>
+    <p>يسعدنا الرد على كافة استفساراتكم وطلباتكم طوال اليوم عبر الوسائل التالية:</p>
+
+    <div class="contact-btns">
+      <!-- زر الواتساب -->
+      <a href="https://wa.me/201029290236" target="_blank" class="c-btn whatsapp">
+        📱 تواصل عبر الواتساب (01029290236)
+      </a>
+
+      <!-- زر الاتصال المباشر -->
+      <a href="tel:01029290236" class="c-btn phone">
+        📞 اتصال هاتفي مباشر
+      </a>
+
+      <!-- زر الفيسبوك -->
+      <a href="https://www.facebook.com/share/1DNVk5Zmhg/?mibextid=wwXIfr" target="_blank" class="c-btn facebook">
+        📘 صفحتنا على فيسبوك
+      </a>
+      <a href="https://www.instagram.com/adam_accessorie?stkn=MWV4YjU0bWEzdmcwZg==" target="_blank" class="c-btn instagram">
+      📠  صفحتناعلي انستغرام
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

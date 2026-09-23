@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إكسسوار آدم - Adam Accessories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- القائمة العلويّة المربوطة بالصفحات -->
+  <nav class="navbar">
+    <div class="logo">اكسسوار ادم</div>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="#products">المنتجات</a></li>
+      <li><a href="about.html">عن المتجر (About)</a></li>
+      <li><a href="contact.html">تواصل معنا (Contact)</a></li>
+    </ul>
+  </nav>
+
+  <!-- القسم الرئيسي (Hero) -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Adam accessories</h1>
+      <p>كل ما تحتاجه من قطع غيار وإكسسوارات العجل والسكوتر</p>
+      <button onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">تصفح المنتجات</button>
+    </div>
+  </section>
+
+  <h1 class="products-title">أحدث المنتجات</h1>
+
+  <!-- قسم المنتجات -->
+  <section class="products" id="products">
+
+    <div class="card">
+      <img src="WhatsApp Image 2026-09-22 at 12.31.10 PM.jpeg" alt="Bicycles">
+      <div class="card-content">
+        <h2>Bicycles 26 sport</h2>
+        <p class="description">Full alloy 26" bike with front/rear derailleurs and disc brakes</p>
+        <p class="price">5,500 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('Bicycles 26 sport')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="moto.jpeg" alt="Electric scooter">
+      <div class="card-content">
+        <h2>Electric scooter</h2>
+        <p class="description">ماتور 3000 وات مفتاح بصمه ليد بالكامل سرعه فعليه 70 كم/س</p>
+        <p class="price">50,000 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('Electric scooter')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="نيجر.jpeg" alt="BMX bike">
+      <div class="card-content">
+        <h2>BMX bike</h2>
+        <p class="description">Freestyle BMX Bicycle</p>
+        <p class="price">5,000 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('BMX bike')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="مقاس 20.jpeg" alt="20 volcano">
+      <div class="card-content">
+        <h2>20 volcano مونت</h2>
+        <p class="description">عجله اطفال مقاس 20 فولكينو</p>
+        <p class="price">2,700 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('20 volcano مونت')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="WhatsApp Image 2026-07-10 at 9.14.21 AM.jpeg" alt="bike">
+      <div class="card-content">
+        <h2>20-inch Bicycle wide 4.00</h2>
+        <p class="description">Mountain bike with front and rear gears and cargo rack</p>
+        <p class="price">6,300 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('20-inch Bicycle wide 4.00')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="مقاس 12.jpeg" alt="volcano 12">
+      <div class="card-content">
+        <h2>عجله volcano 12</h2>
+        <p class="description">عجله مقاس 12 فولكينو اطفال</p>
+        <p class="price">2,000 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('عجله volcano 12')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="مقاس 16.jpeg" alt="volcano 16">
+      <div class="card-content">
+        <h2>عجله مقاس 16 volcano</h2>
+        <p class="description">عجله مقاس 16 اطفال فولكينو</p>
+        <p class="price">2,400 ج.م</p>
+        <button class="buy-btn" onclick="orderProduct('عجله مقاس 16 volcano')">طلب عبر الواتساب</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ربط ملف الـ JavaScript الخاص بك -->
+  <script src="script.js"></script>
+</body>
+</html>
